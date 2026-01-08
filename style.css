@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+     font-family: "Inter", sans-serif;
+}
+/* Common css */
+.container{
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.btn{
+    color: white;
+    background-color: #30B868;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background-color: white;
+    color: #30B868;
+    border: 1px solid #30B868;
+    
+}
+/* nav Section */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 34px;
+    align-items: center;
+}
+.nav-item ul{
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+.nav-item ul a{
+    text-decoration: none;
+}
+
