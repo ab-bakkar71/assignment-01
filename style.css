@@ -175,3 +175,51 @@ nav{
     color: rgba(98, 115, 130, 1);
     font-size: 16px;
 }
+/* second-brain */
+.second-brain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 120px;
+
+}
+.second-brain-img img{
+    width: 600px;
+    height: 600px;
+    border-radius: 12px;
+}
+.second-brain-content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.solution{
+    color: rgba(70, 145, 101, 1);
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.second-brain-content h1{
+    color: rgba(0, 25, 49, 1);
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.second-brain-content p{
+    color: rgba(98, 115, 130, 1);
+    font-size: 16px;
+}
+.second-brain-content ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color:  rgba(0, 25, 49, 1);
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 28px;
+}
+.second-brain-content ul i{
+    color: rgba(48, 184, 104, 1);
+}
